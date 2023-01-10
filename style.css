@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
+:root {
+  --accent-color: rgb(36, 242, 177);
+  --accent-font: 'Sofia Sans', sans-serif;
+}
+
+.brand-name {
+  font-family: var(--accent-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--accent-font);
+}
+
+.btn {
+  background-color: var(--accent-color);
+}
+
+.btn:hover {
+  background-color: #666;
+}
+
+body {
+  background-color: #333;
+}
+
+.text-muted {
+  color: #aaa!important;
+}
